@@ -70,6 +70,10 @@ To reproduce the results of different settings for the `maxT` parameter (Table 9
 ```
 ./reproduce_maxT.sh
 ```
+To reproduce the results of different settings for the fitness function run:
+```
+./reproduce_fitness.sh
+```
 To reproduce the results of the F-measure over runtime experiment (Figure 3) run:
 ```
 ./reproduce_plot.sh
@@ -120,6 +124,7 @@ Showing the influence of different settings of the weight parameter of the fitne
 | Mammographic  | 0.81 | 0.81  | 0.81  | 0.81  | 0.80  | 0.78  | 0.78  | 0.78  | 0.78  |
 | Mutagenesis  | 1.00 | 1.00  | 1.00  | 1.00  | 1.00  | 1.00  | 1.00  | 1.00  | 1.00  |
 | NCTRER  | 1.00 | 1.00  | 1.00  | 1.00  | 1.00  | 1.00  | 1.00  | 1.00  | 1.00  |
+| Premier League  | 1.00 | 1.00  | 1.00  | 1.00  | 1.00  | 1.00  | 1.00  | 1.00  | 1.00  |
 | Pyrimidine  | 0.91  | 0.91  | 0.91  | 0.91  | 0.92  | 0.92  | 0.88  | 0.89  | 0.78  |
 
 ### Length
@@ -132,6 +137,7 @@ Showing the influence of different settings of the weight parameter of the fitne
 | Mammographic  | 27.17 | 23.30  | 20.43  | 14.67  | 11.20  | 3.00  | 3.00  | 3.00  | 3.00  |
 | Mutagenesis  | 3.00 | 3.00  | 3.00  | 3.00  | 3.00  | 3.00  | 3.00  | 3.00  | 3.00  |
 | NCTRER  | 3.00 | 3.00  | 3.00  | 3.00  | 3.00  | 3.00  | 3.00  | 3.00  | 3.00  |
+| Premier League  | 6.93  | 6.93  | 6.93  | 6.93  | 6.87  | 6.93  | 7.13  | 6.87  | 7.00  |
 | Pyrimidine  | 11.40  | 11.40  | 11.40  | 11.40  | 11.27  | 12.20  | 10.87  | 7.13  | 5.13  |
 
 ## Involved systems and frameworks
